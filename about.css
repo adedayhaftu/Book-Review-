@@ -8,9 +8,9 @@ html {
 
 .navbar {
     margin-top: 80px;
-    margin-left: 20%;
+    margin-left: 42%;
     padding-right: 100px;
-    gap: 150px;
+    gap: 140px;
     display: flex;
     background: transparent;
     text-decoration: none;
@@ -127,4 +127,314 @@ text-align: center;
 }
 .contact i:hover{
     transform: scale(1.2) ;
+}
+
+
+@media screen and (max-width: 750px) {
+    body {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      gap: 20px;
+      margin: 20px 0 0 0;
+      align-items: flex-start;
+    }
+  
+    #apartheid-image,
+    #women-freredom,
+    .illegally-alive {
+      width: 100%;
+      height: auto;
+    }
+  
+    .illegally-alive h1 {
+      font-size: 32px;
+    }
+  
+    #topic-phrase {
+      margin-left: 20px;
+    }
+  
+    .renaming-book,
+    .abel-story {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px;
+    }
+  
+    .review {
+      width: 100%;
+      margin-left: 0;
+      padding: 15px;
+      font-size: 16px;
+    }
+  
+    .subscribe {
+      width: 90%;
+      margin-left: 0;
+      padding: 5%;
+    }
+  
+    .subscribe h1 {
+      font-size: 28px;
+    }
+  
+    #email,
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 751px) and (max-width: 999px) {
+    body {
+      width: 95%;
+    }
+    .about-me{
+        margin-left: -15%;
+        gap:230px;
+
+    }
+    .know-me p{
+        width: 190%;
+    }
+    .journey{
+        width: 200%;
+    }
+    .about-book{
+        margin-top: 80%;
+        width: 100%;
+    }
+    .navbar {
+      gap: 40px;
+      margin-left: 14%;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
+  
+    #apartheid-image,
+    #women-freredom,
+    .illegally-alive {
+      width: 80vw;
+      height: auto;
+    }
+  
+    .illegally-alive h1 {
+      font-size: 48px;
+    }
+  
+    .renaming-book,
+    .abel-story {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .review {
+      width: 95%;
+      margin-left: 2.5%;
+      font-size: 18px;
+    }
+  
+    .subscribe {
+      width: 70%;
+      margin-left: 5%;
+      padding: 4%;
+    }
+  
+    .subscribe h1 {
+      font-size: 30px;
+    }
+  
+    #email,
+    .button {
+      width: 70%;
+      font-size: 15px;
+    }
+    #contact{
+        width: 130px;
+    }
+  }
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .navbar {
+        margin-top: 60px;
+        margin-left: 35%;
+        padding-right: 50px;
+        gap: 80px;
+        padding: 30px;
+    }
+
+    #contact {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .about-me {
+        padding: 60px;
+        gap: 60px;
+        margin-top: 80px;
+        left: 10%;
+    }
+
+    .know-me {
+        width: 40%;
+    }
+
+    .know-me h1 {
+        font-size: 50px;
+    }
+
+    .know-me p {
+        font-size: 20px;
+    }
+
+    .nelson-quote {
+        font-size: 20px;
+        padding: 60px;
+        margin-top: 120px;
+        width: 50%;
+        left: 15%;
+    }
+
+    .book-content {
+        padding: 60px;
+        margin-top: 120px;
+    }
+
+    .book-speech {
+        margin-left: 10%;
+        width: 35%;
+    }
+
+    .about-book {
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .about-book h1 {
+        font-size: 50px;
+    }
+
+    .about-book p {
+        font-size: 20px;
+    }
+
+    #adu-image {
+        width: 20vw;
+    }
+
+    .contact {
+        padding: 70px;
+        margin-top: 150px;
+    }
+
+    .contact h2 {
+        font-size: 32px;
+    }
+
+    .contact i {
+        font-size: 28px;
+        margin: 0 25px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .navbar {
+        margin-top: 80px;
+        margin-left: 42%;
+        padding-right: 100px;
+        gap: 140px;
+        padding: 40px;
+    }
+
+    #contact {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .about-me {
+        left: 20%;
+        top: 25%;
+        padding: 80px;
+        gap: 5%;
+    }
+
+    .know-me {
+        width: 30vw;
+        margin-top: 90px;
+        line-height: 40px;
+    }
+
+    .know-me h1 {
+        font-size: 60px;
+    }
+
+    .know-me p {
+        font-size: 20px;
+    }
+
+    .nelson-quote {
+        top: 100%;
+        width: 50%;
+        font-size: 20px;
+        left: 20%;
+        line-height: 35px;
+        padding: 80px 0;
+    }
+
+    .book-content {
+        margin-top: 160px;
+    }
+
+    .book-speech {
+        margin-left: 14%;
+    }
+
+    .about-book {
+        width: 30vw;
+        margin-top: 64%;
+        line-height: 40px;
+        margin-left: 50%;
+    }
+
+    .about-book h1 {
+        font-size: 60px;
+    }
+
+    .about-book p {
+        font-size: 20px;
+    }
+
+    #adu-image {
+        width: 25vw;
+        height: 60vh;
+    }
+
+    .contact {
+        top: 195%;
+        padding: 100px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact i {
+        gap: 30px;
+        margin-left: 35px;
+        font-size: 30px;
+    }
 }
